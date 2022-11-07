@@ -1,4 +1,4 @@
-package format;
+package prac3.format;
 import java.text.NumberFormat;
 import java.util.Locale;
 

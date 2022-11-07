@@ -1,4 +1,4 @@
-package tasksAboutRandom;
+package prac3.tasksAboutRandom;
 
 import java.util.Random;
 

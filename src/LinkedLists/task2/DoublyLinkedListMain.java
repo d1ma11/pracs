@@ -15,7 +15,7 @@ public class DoublyLinkedListMain {
         list.push(new Student("Sixth",24));
         list.print();
         list.push(new Student("Fifth",14));
-//        list.print();
+        list.print();
         list.push(new Student("Fourth",234));
 //        list.print();
         list.push(new Student("Third", 43));

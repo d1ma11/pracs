@@ -1,4 +1,4 @@
-package wrapper;
+package prac3.wrapper;
 
 public class task1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LinkedLists.task2;
+package LinkedLists.task3;
 
 public class Student {
     private final String name;

@@ -1,4 +1,4 @@
-package format;
+package prac3.format;
 
 public class Report {
     public static void generateReport(Employee[] array) {

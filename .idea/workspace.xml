@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f06cba1-64e7-45f6-b92e-7964a986f12c" name="Changes" comment="" />
+    <list default="true" id="1f06cba1-64e7-45f6-b92e-7964a986f12c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task2/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task2/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task2/DoublyLinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task2/DoublyLinkedListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task3/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task3/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task3/CircularLinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task3/CircularLinkedListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task3/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task3/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task3/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task3/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac12/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac12/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac12/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac18/task5/ThrowsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac18/task5/ThrowsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac18/task7/ThrowsDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac18/task7/ThrowsDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac20/task5/GenMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac20/task5/GenMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/format/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/format/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/format/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/format/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/format/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/format/task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/format/task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/format/task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task2/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task2/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task2/MyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task2/MyType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task2/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task2/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task2/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task2/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/tasksAboutRandom/task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/wrapper/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/wrapper/task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task4/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task4/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task4/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task4/Tester.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HCGjJNsBexOBgvHjqaE7FpQWpG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,9 +61,26 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Yndx/JavaProjects/pracs/pracs/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Yndx\JavaProjects\pracs\pracs\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LinkedLists.task3" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,7 +89,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667781796604</updated>
+      <workItem from="1667781805045" duration="4180000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="list.tail.next.next.next.next.next.next" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

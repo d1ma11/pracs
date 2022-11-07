@@ -34,6 +34,7 @@ public class DoublyLinkedList<T> {
      *
      * @param position позиция того узла, которого надо получить
      * @return возвращает узел списка
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
     public Node<T> getNode(int position) throws ArrayIndexOutOfBoundsException {
         if (position > length - 1 | position < 0) {
@@ -66,6 +67,7 @@ public class DoublyLinkedList<T> {
      *
      * @param position позиция того элемента, которого надо получить
      * @return возвращает элемент списка на позиции position
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
     public T getElem(int position) throws ArrayIndexOutOfBoundsException{
         return getNode(position).data;
@@ -94,6 +96,7 @@ public class DoublyLinkedList<T> {
 
     /**
      * Удаление элемента из начала списка
+     * @throws NullPointerException если список пуст, удалять нечего
      */
     public void remove() throws NullPointerException {
         if (this.isEmpty())
