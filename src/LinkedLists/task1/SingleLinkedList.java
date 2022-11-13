@@ -1,9 +1,16 @@
 package LinkedLists.task1;
 
 public class SingleLinkedList<T> {
-    private Node<T> head; /** голова списка */
+    private Node<T> head;
+    /**
+     * голова списка
+     */
 
-    private int length = 0; /** длина списка */
+    private int length = 0;
+
+    /**
+     * длина списка
+     */
 
     public SingleLinkedList() {
         head = null;
@@ -44,6 +51,20 @@ public class SingleLinkedList<T> {
             position--;
         }
         return current.data;
+    }
+
+    public void replace(int position, T newData) {
+        if (position > length) {
+            System.out.println("Index out of range");
+            return;
+        }
+        Node<T> current = head;
+        while (position - 1 >= 0) {
+            current = current.next;
+            position--;
+        }
+
+        current.data = newData;
     }
 
     /**
@@ -114,15 +135,14 @@ public class SingleLinkedList<T> {
             return;
         }
         Node<T> current = head;
-        Node<T> prev = new Node<>();
-        while (position - 1 >= 0) {
-            prev = current;
+        while (position - 1 > 0) {
             current = current.next;
             position--;
         }
-        prev.next = new Node<>();
-        prev.next.data = data;
-        prev.next.next = current;
+        Node<T> newNode = new Node<>();
+        newNode.data = data;
+        newNode.next = current.next;
+        current.next = newNode;
         length++;
     }
 
@@ -144,15 +164,56 @@ public class SingleLinkedList<T> {
     /**
      * Очистка списка
      * Как итог - пустой список
+     * @param list Односвязный список
+     * @param <T> Описывает тип моего параметра
      */
-    public static void clear(SingleLinkedList list) {
+    public static <T> void clear(SingleLinkedList<T> list) {
         while (list.head != null) {
-            Node next = list.head.next;
+            Node<T> next = list.head.next;
             list.head.data = null;
             list.head.next = null;
             list.head = next;
         }
         list.length = 0;
+    }
+
+    /**
+     * Сортирует список рекурсивным методом
+     *
+     * @param list Односвязный список
+     * @param <T> Описывает тип моего параметра, который является подтипом Number и Comparable
+     */
+    public static <T extends Number & Comparable<T>> void recursiveSort(SingleLinkedList<T> list) {
+        if (list.length <= 1) return;
+
+        SingleLinkedList<T> a = new SingleLinkedList<>();
+        int a_length = list.length / 2;
+
+        SingleLinkedList<T> b = new SingleLinkedList<>();
+        int b_length = list.length - a_length;
+
+        for (int i = 0; i < list.length; i++) {
+            if (i < a_length)
+                a.add(i, list.get(i));
+            else
+                b.add(i - a_length, list.get(i));
+        }
+
+        recursiveSort(a);
+        recursiveSort(b);
+
+        int ai = 0, bi = 0;
+        while (ai + bi < list.length) {
+            // если индекс bi >= длины списка b
+            // или (индекс ai < длины списка a и элемент списка a в индексе ai < элемента списка b в индексе bi*/
+            if (bi >= b_length || (ai < a_length && (a.get(ai).compareTo(b.get(bi))) < 0)) {
+                list.replace(ai + bi, a.get(ai));
+                ai++;
+            } else {
+                list.replace(ai + bi, b.get(bi));
+                bi++;
+            }
+        }
     }
 
     /**
