@@ -1,11 +1,11 @@
 package prac3.format;
 
 public class Employee {
-    String fullname;
+    String fullName;
     double salary;
 
-    public Employee(String fullname, double salary) {
-        this.fullname = fullname;
+    public Employee(String fullName, double salary) {
+        this.fullName = fullName;
         this.salary = salary;
     }
 }

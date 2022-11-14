@@ -128,6 +128,7 @@ public class DoublyLinkedList<T> {
 
     /**
      * Удаление элемента с конца списка
+     * @throws NullPointerException если список пуст, удалять нечего
      */
     public void pop() throws NullPointerException {
         if (this.isEmpty()) {
@@ -148,6 +149,7 @@ public class DoublyLinkedList<T> {
      *
      * @param position позиция в списке, куда мы хотим добавить новый элемент
      * @param data     новый элемент, который мы хотим добавить в список
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
     public void add(int position, T data) throws ArrayIndexOutOfBoundsException {
         if (position > length + 1 | position < 0) {
@@ -180,6 +182,7 @@ public class DoublyLinkedList<T> {
      * Удаление элемента по индексу position
      *
      * @param position индекс элемента списка, который мы удаляем
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
     public void remove(int position) throws ArrayIndexOutOfBoundsException {
         if (position > length - 1 | position < 0) {

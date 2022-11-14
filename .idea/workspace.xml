@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f06cba1-64e7-45f6-b92e-7964a986f12c" name="Changes" comment="1st commit">
+    <list default="true" id="1f06cba1-64e7-45f6-b92e-7964a986f12c" name="Changes" comment="3rd commit">
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Automobile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Plane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task6/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task8/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task8/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/Armchair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/FurnitureShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/Sofa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/Table.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task1/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task1/LinkedListMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedLists/task1/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task1/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac10/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac10/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task2/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task2/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/format/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/format/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac3/format/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/format/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4/Task4/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4/Task4/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task6/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task6/Employer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task6/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task7/Learner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task7/Pupil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task7/Pupil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task7/Reader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task7/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task7/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task7/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task7/Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task8/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task8/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task8/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task8/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task8/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task8/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task9/Pupil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac4_1/task9/Student.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +95,8 @@
       <updated>1667781796604</updated>
       <workItem from="1667781805045" duration="7268000" />
       <workItem from="1668017025581" duration="1226000" />
-      <workItem from="1668335382471" duration="9471000" />
+      <workItem from="1668335382471" duration="9598000" />
+      <workItem from="1668410952398" duration="15508000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1667786041616</created>
@@ -84,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667788535356</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3rd commit">
+      <created>1668373416224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668373416224</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +138,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit" />
+    <MESSAGE value="3rd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd commit" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

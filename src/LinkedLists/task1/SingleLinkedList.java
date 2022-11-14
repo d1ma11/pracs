@@ -1,16 +1,18 @@
 package LinkedLists.task1;
 
+
+
 public class SingleLinkedList<T> {
-    private Node<T> head;
     /**
      * голова списка
      */
-
-    private int length = 0;
+    private Node<T> head;
 
     /**
      * длина списка
      */
+    private int length = 0;
+
 
     public SingleLinkedList() {
         head = null;
@@ -35,35 +37,44 @@ public class SingleLinkedList<T> {
     }
 
     /**
+     * Получение узла списка по индексу
+     *
+     * @param position позиция того узла, которого надо получить
+     * @return возвращает узел списка
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
+     */
+    public Node<T> getNode(int position) throws ArrayIndexOutOfBoundsException{
+        if (position > length | position < 0) {
+            throw new ArrayIndexOutOfBoundsException("Input index exceeds array bounds!");
+        }
+        Node<T> current = head;
+        while (position - 1 >= 0) {
+            current = current.next;
+            position--;
+        }
+        return current;
+    }
+
+
+    /**
      * Получение элемента списка по индексу
      *
      * @param position позиция того элемента, которого надо получить
      * @return возвращает элемент списка на позиции position
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
-    public T get(int position) {
-        if (position > length) {
-            System.out.println("Index out of range");
-            return null;
-        }
-        Node<T> current = head;
-        while (position - 1 >= 0) {
-            current = current.next;
-            position--;
-        }
-        return current.data;
+    public T get(int position) throws ArrayIndexOutOfBoundsException {
+        return getNode(position).data;
     }
 
-    public void replace(int position, T newData) {
-        if (position > length) {
-            System.out.println("Index out of range");
-            return;
-        }
-        Node<T> current = head;
-        while (position - 1 >= 0) {
-            current = current.next;
-            position--;
-        }
-
+    /**
+     * Замена данных в узле в данной позиции
+     * @param position позиция узла, где производится замена данных
+     * @param newData новые вводимые данные
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
+     */
+    public void replace(int position, T newData) throws ArrayIndexOutOfBoundsException{
+        Node<T> current = getNode(position);
         current.data = newData;
     }
 
@@ -82,8 +93,11 @@ public class SingleLinkedList<T> {
 
     /**
      * Удаление элемента из начала списка
+     * @throws NullPointerException если список пуст, удалять нечего
      */
-    public void remove() {
+    public void remove() throws NullPointerException{
+        if (this.isEmpty())
+            throw new NullPointerException("List is empty!");
         head = head.next;
         length--;
     }
@@ -106,8 +120,11 @@ public class SingleLinkedList<T> {
 
     /**
      * Удаление элемента с конца списка
+     * @throws NullPointerException если список пуст, удалять нечего
      */
-    public void pop() {
+    public void pop() throws NullPointerException{
+        if(this.isEmpty())
+            throw new NullPointerException("List is empty!");
         Node<T> current = head;
         Node<T> temp = head;
         while (current.next != null) {
@@ -124,11 +141,11 @@ public class SingleLinkedList<T> {
      *
      * @param position позиция в списке, куда мы хотим добавить новый элемент
      * @param data     новый элемент, который мы хотим добавить в список
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
-    public void add(int position, T data) {
-        if (position > length + 1) {
-            System.out.println("Index out of range");
-            return;
+    public void add(int position, T data) throws ArrayIndexOutOfBoundsException{
+        if (position > length + 1 | position < 0) {
+            throw new ArrayIndexOutOfBoundsException("Input index exceeds array bounds!");
         }
         if (position == 0) {
             this.push(data);
@@ -150,8 +167,11 @@ public class SingleLinkedList<T> {
      * Удаление элемента по индексу position
      *
      * @param position индекс элемента списка, который мы удаляем
+     * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
-    public void remove(int position) {
+    public void remove(int position) throws ArrayIndexOutOfBoundsException{
+        if(position>length-1|position<0)
+            throw new ArrayIndexOutOfBoundsException("Input index exceeds array bounds!");
         Node<T> current = head;
         while (position - 1 > 0) {
             current = current.next;
@@ -164,8 +184,9 @@ public class SingleLinkedList<T> {
     /**
      * Очистка списка
      * Как итог - пустой список
+     *
      * @param list Односвязный список
-     * @param <T> Описывает тип моего параметра
+     * @param <T>  Описывает тип моего параметра
      */
     public static <T> void clear(SingleLinkedList<T> list) {
         while (list.head != null) {
@@ -181,7 +202,7 @@ public class SingleLinkedList<T> {
      * Сортирует список рекурсивным методом
      *
      * @param list Односвязный список
-     * @param <T> Описывает тип моего параметра, который является подтипом Number и Comparable
+     * @param <T>  Описывает тип моего параметра, который является подтипом Number и Comparable
      */
     public static <T extends Number & Comparable<T>> void recursiveSort(SingleLinkedList<T> list) {
         if (list.length <= 1) return;
