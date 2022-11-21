@@ -62,7 +62,7 @@ public class PatternMatcherLearning {
         //ex3
         System.out.println(findRubEurUsd("12.3 RUB, fejhge12 EUdsfrg3.789USD, 12.432 USD, 43.13 EU, 43.11 USD"));
         System.out.println();
-//        ex4
+        //ex4
         System.out.println(haveDigitPlus("1 / 3 -5"));
         System.out.println(haveDigitPlus("1 + 3 -5"));
         System.out.println(haveDigitPlus("1 / 3+5"));
@@ -78,11 +78,11 @@ public class PatternMatcherLearning {
         System.out.println(isCorrectDateFormat("1/1/1345"));
         //ex6
         System.out.println();
-        System.out.println(checkEmail("sagrachov@gmail.com"));
-        System.out.println(checkEmail(".sag rachov@gmail.com"));
-        System.out.println(checkEmail("sagrachov.@.gmail.com"));
-        System.out.println(checkEmail("sagrachov@gmail"));
-        System.out.println(checkEmail("sagrachov@g@mail.ru"));
+        System.out.println(checkEmail("danilov0330@gmail.com"));
+        System.out.println(checkEmail(".da nilov 0330@gmail.com"));
+        System.out.println(checkEmail("danilov0330.@.gmail.com"));
+        System.out.println(checkEmail("danilov0330@gmail"));
+        System.out.println(checkEmail("danilov0330@g@mail.ru"));
         //ex7
         System.out.println();
         System.out.println(checkPass("badpass"));

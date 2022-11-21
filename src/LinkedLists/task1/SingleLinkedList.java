@@ -9,10 +9,25 @@ public class SingleLinkedList<T> {
     private Node<T> head;
 
     /**
+     * Геттер для головы списка
+     * @return голова списка
+     */
+    public Node<T> getHead() {
+        return head;
+    }
+
+    /**
      * длина списка
      */
     private int length = 0;
 
+    /**
+     * Конструктор итератора
+     * @return итератор для данного списка
+     */
+    public Iterator<T> iterator() {
+        return new SingleLinkedListIterator<>(this);
+    }
 
     public SingleLinkedList() {
         head = null;
@@ -21,7 +36,7 @@ public class SingleLinkedList<T> {
     /**
      * Получение длины списка
      *
-     * @return возвращает длину списка
+     * @return длину списка
      */
     public int getLength() {
         return length;
@@ -30,7 +45,7 @@ public class SingleLinkedList<T> {
     /**
      * Проверка списка на пустоту
      *
-     * @return возвращает true, если список пуст. Иначе - false
+     * @return true, если список пуст. Иначе - false
      */
     public boolean isEmpty() {
         return head == null;
@@ -40,7 +55,7 @@ public class SingleLinkedList<T> {
      * Получение узла списка по индексу
      *
      * @param position позиция того узла, которого надо получить
-     * @return возвращает узел списка
+     * @return узел списка
      * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
     public Node<T> getNode(int position) throws ArrayIndexOutOfBoundsException{
@@ -60,7 +75,7 @@ public class SingleLinkedList<T> {
      * Получение элемента списка по индексу
      *
      * @param position позиция того элемента, которого надо получить
-     * @return возвращает элемент списка на позиции position
+     * @return элемент списка на позиции position
      * @throws ArrayIndexOutOfBoundsException вводимый индекс превышает границы списка
      */
     public T get(int position) throws ArrayIndexOutOfBoundsException {

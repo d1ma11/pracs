@@ -5,6 +5,7 @@ import static LinkedLists.task1.SingleLinkedList.recursiveSort;
 public class LinkedListMain {
     public static void main(String[] args) {
         SingleLinkedList<Integer> list = new SingleLinkedList<>();
+
         list.push(2);
         list.push(0);
         list.push(5);
@@ -18,5 +19,10 @@ public class LinkedListMain {
         recursiveSort(list);
 
         list.print();
+
+        Iterator<Integer> it = list.iterator();
+        for(int i = 0; i < list.getLength(); i++) {
+            System.out.print(it.next() + " ");
+        }
     }
 }

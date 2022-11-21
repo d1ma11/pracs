@@ -5,37 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f06cba1-64e7-45f6-b92e-7964a986f12c" name="Changes" comment="3rd commit">
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Automobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Ship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task10/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task6/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task8/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task8/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/Armchair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/Furniture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/FurnitureShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/Sofa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prac4_1/task9/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Collections/task1/ReverseArrUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedLists/task1/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedLists/task1/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedLists/task1/SingleLinkedListIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task1/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task1/LinkedListMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedLists/task1/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task1/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task2/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task2/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac3/format/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/format/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac3/format/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac3/format/Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4/Task4/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4/Task4/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task6/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task6/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task6/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task7/Learner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task7/Pupil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task7/Pupil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task7/Reader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task7/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task7/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task7/Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task7/Tester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task8/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task8/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task8/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task8/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task8/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac4_1/task8/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task9/Pupil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac4_1/task9/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac12/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac12/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/PhoneNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac12/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac13/PatternMatcherLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac13/PatternMatcherLearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac18/task5/ThrowsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac18/task5/ThrowsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac18/task7/ThrowsDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac18/task7/ThrowsDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac18/task8/dz_ember_preview.webm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +30,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -82,6 +66,7 @@
       <recent name="D:\Yndx\JavaProjects\pracs\pracs\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="LinkedLists.task1" />
       <recent name="LinkedLists.task3" />
     </key>
   </component>
@@ -96,7 +81,8 @@
       <workItem from="1667781805045" duration="7268000" />
       <workItem from="1668017025581" duration="1226000" />
       <workItem from="1668335382471" duration="9598000" />
-      <workItem from="1668410952398" duration="15508000" />
+      <workItem from="1668410952398" duration="16950000" />
+      <workItem from="1669021240232" duration="8331000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1667786041616</created>
@@ -119,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668373416224</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3rd commit">
+      <created>1668429846270</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668429846270</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
