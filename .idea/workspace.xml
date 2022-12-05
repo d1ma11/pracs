@@ -4,21 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f06cba1-64e7-45f6-b92e-7964a986f12c" name="Changes" comment="3rd commit">
-      <change afterPath="$PROJECT_DIR$/src/Collections/task1/ReverseArrUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/task1/Iterable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/task1/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedLists/task1/SingleLinkedListIterator.java" afterDir="false" />
+    <list default="true" id="1f06cba1-64e7-45f6-b92e-7964a986f12c" name="Changes" comment="4rd commit">
+      <change afterPath="$PROJECT_DIR$/src/prac24/task1/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task1/ComplexAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task1/ConcreteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task2/AbstractChairFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task2/Chair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task2/ChairFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task2/FunctionalChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task2/MagicChair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prac24/task2/VictorianChair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task1/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task1/LinkedListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedLists/task1/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/task1/SingleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac12/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac12/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/PhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac12/task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac12/task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac13/PatternMatcherLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac13/PatternMatcherLearning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac18/task5/ThrowsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac18/task5/ThrowsDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac18/task7/ThrowsDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac18/task7/ThrowsDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prac18/task8/dz_ember_preview.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prac20/task4/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prac20/task4/MinMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,21 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Yndx/JavaProjects/pracs/pracs/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Yndx/JavaProjects/pracs/pracs/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Yndx\JavaProjects\pracs\pracs\src" />
@@ -82,7 +83,12 @@
       <workItem from="1668017025581" duration="1226000" />
       <workItem from="1668335382471" duration="9598000" />
       <workItem from="1668410952398" duration="16950000" />
-      <workItem from="1669021240232" duration="8331000" />
+      <workItem from="1669021240232" duration="8653000" />
+      <workItem from="1669037498355" duration="25000" />
+      <workItem from="1670186545276" duration="138000" />
+      <workItem from="1670186888223" duration="557000" />
+      <workItem from="1670187813404" duration="131000" />
+      <workItem from="1670187980672" duration="9749000" />
     </task>
     <task id="LOCAL-00001" summary="1st commit">
       <created>1667786041616</created>
@@ -112,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668429846270</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4rd commit">
+      <created>1669033702828</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669033702828</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st commit" />
     <MESSAGE value="3rd commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="3rd commit" />
+    <MESSAGE value="4rd commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="4rd commit" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -140,5 +154,9 @@
         <watch expression="list.tail.next.next.next.next.next.next" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
