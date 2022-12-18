@@ -1,7 +1,7 @@
 package prac24.task2;
 
 public class VictorianChair extends Chair {
-    private int age;
+    private final int age;
 
     public VictorianChair(int age) {
         this.age = age;
